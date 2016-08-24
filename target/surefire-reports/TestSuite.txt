@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.67 sec <<< FAILURE! - in TestSuite
+t2(com.a.b.CTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError:  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.a.b.CTest.t2(CTest.java:18)
+

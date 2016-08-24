@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [mavenSuite]">
+  <test name="mavenTest">
+    <classes>
+      <class name="com.a.b.CTest"/>
+    </classes>
+  </test> <!-- mavenTest -->
+  <test name="mavenTest(failed)">
+    <classes>
+      <class name="com.a.b.CTest">
+        <methods>
+          <include name="t2"/>
+        </methods>
+      </class> <!-- com.a.b.CTest -->
+    </classes>
+  </test> <!-- mavenTest(failed) -->
+</suite> <!-- Failed suite [mavenSuite] -->
